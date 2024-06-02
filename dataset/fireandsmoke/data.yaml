@@ -1,0 +1,11 @@
+# dataset path
+path: F:/YOLO/yolov8-main/dataset/fireandsmoke
+train: images/train
+val: images/val
+test: images/test
+
+# number of classes
+nc: 2
+
+# class names
+names: ['fire','smoke']
