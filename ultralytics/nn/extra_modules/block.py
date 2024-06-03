@@ -1294,7 +1294,7 @@ class RCSOSA(nn.Module):
 
         self.se = None
         if se:
-            self.se = EMA(c2)
+            self.se = SEAttention(c2)
 
     def forward(self, x):
         x1 = self.conv1(x)
